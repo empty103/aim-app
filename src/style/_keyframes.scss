@@ -1,0 +1,25 @@
+@keyframes boxResize {
+    from {
+        width: 50px;
+        height: 50px;
+    }
+
+    to {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+@keyframes button-glow {
+    0% {
+        box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    50% {
+        box-shadow: 0 8px 18px 2px rgba(0, 0, 0, 0.3);
+    }
+
+    100% {
+        box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+}
